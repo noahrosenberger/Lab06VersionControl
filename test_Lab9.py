@@ -8,6 +8,7 @@ def encoder(password):
 
 def decoder(password):
     pass
+    print("hello")
 
 def main():
     pass
