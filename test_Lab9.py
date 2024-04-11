@@ -1,5 +1,10 @@
 def encoder(password):
-    pass
+    result = ""
+    for i in password:
+        number = int(i)
+        result += str(number+3)
+    return result
+
 
 def decoder(password):
     pass
